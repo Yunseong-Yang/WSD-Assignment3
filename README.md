@@ -6,11 +6,11 @@
 - DB 주소: http://113.198.66.75:13131 (범용 포트 - 3000)
 - Swagger 배포 : http://113.198.66.75:17131/api-docs/
 
-# 과정
+## 과정
 - npm install
 - node index.js
 
-# 엔드 포인트 별 주요 기능
+## 엔드 포인트 별 주요 기능
 - 회원가입 (POST, api/auth/register)
 --> Required Responce Body: "username":string, "email":string, "password": string
 
