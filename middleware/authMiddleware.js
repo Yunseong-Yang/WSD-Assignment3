@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const SECRET_KEY = 'your_secret_key'; // 하드코딩된 키
+const SECRET_KEY = '1234'; // 하드코딩된 키
 
 const authenticateToken = (req, res, next) => {
   const authHeader = req.headers['authorization'];

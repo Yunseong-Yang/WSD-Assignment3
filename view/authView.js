@@ -1,5 +1,3 @@
-// authView.js
-
 // 성공 응답
 const successResponse = (res, status, message, data = null) => {
     res.status(status).json({
